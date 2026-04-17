@@ -852,6 +852,15 @@ a {
 }
 
 @media (max-width: 768px) {
+    .section-padding {
+        padding: 4rem 0;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
     .nav-menu {
         position: fixed;
         top: 0;
@@ -899,18 +908,59 @@ a {
     .hero-container {
         grid-template-columns: 1fr;
         text-align: center;
-    }
-
-    .hero-buttons {
-        justify-content: center;
+        gap: 2.5rem;
     }
 
     .hero .title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero .description {
+        font-size: 1.05rem;
+        max-width: 100%;
+        margin: 0 auto 2.5rem auto;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.6rem;
+        font-size: 0.9rem;
     }
 
     .badge {
-        margin: 0 auto 2rem;
+        margin: 0 auto 1.5rem;
+    }
+
+    .about-text {
+        padding: 2rem 1.5rem;
+    }
+
+    .stat-card {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .project-content {
+        padding: 1.5rem;
+    }
+
+    .glass-inner {
+        padding: 1.5rem !important;
+    }
+
+    .glass-panel .visual-header i {
+        font-size: 2rem !important;
+    }
+
+    .glass-panel h3 {
+        font-size: 1.8rem !important;
     }
 
     .footer-bottom {
@@ -928,7 +978,16 @@ a {
     }
 
     .contact-box>* {
-        padding: 2.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .filters {
+        gap: 0.6rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.85rem;
     }
 }
 
